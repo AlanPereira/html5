@@ -9,7 +9,12 @@ body {
 	line-height: 1.6;
 }
 
-.place {
+.places{
+	float: left;
+	width: 660px;
+}
+
+article {
 	background-color: #FFF; 
 	border-color: #CCC #999 #999 #CCC;
 	border: 1px solid #CCC;
@@ -17,13 +22,20 @@ body {
 	padding: 10px;
 }
 
-.place h2 {
+article h2 {
 	border-bottom: 1px dashed #7E9F19;
 	margin: 0;
 }
-.place a{
+article a{
 	color:#2C88A7;
 	font-weight: bold;
+}
+
+article img{
+	border: 1px solid #7E9F19;
+	float: left;
+	margin: 10px 10px 0 0;
+	padding: 2px;
 }
 
 h1 a{
@@ -34,4 +46,29 @@ h1 a{
 h1 a:hover{
 	background-color: #7E9F19;
 	color: #FFF;
+}
+
+.clear{
+	clear: both;
+}
+
+aside{
+	background-color: #FFFBE4;
+	border: 1px solid #C9BC8F;
+	padding: 10px;
+	float: right;
+	padding: 10px;
+	width: 260px;
+}
+aside h3{
+	font-size: 14px;
+	margin-top: 0;
+}
+aside ol{
+	font-size: 12px;
+}
+
+footer{
+	font-size: 12px;
+	text-align: center;
 }
